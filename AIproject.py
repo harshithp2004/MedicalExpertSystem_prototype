@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox, ttk, scrolledtext
 
-# Expanded knowledge base (same as previous)
+# Expanded knowledge base
 knowledge_base = {
     'symptoms': {
         'fever': {
