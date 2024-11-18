@@ -1,0 +1,208 @@
+knowledge_base = {
+    'symptoms': {
+        'fever': {
+            'conditions': ['flu', 'common cold', 'malaria', 'typhoid', 'dengue', 'COVID-19', 'pneumonia'],
+            'actions': 'Take rest and drink plenty of fluids. If persistent, consult a doctor.'
+        },
+        'cough': {
+            'conditions': ['flu', 'common cold', 'pneumonia', 'bronchitis', 'asthma', 'tuberculosis', 'COVID-19'],
+            'actions': 'Consult a doctor and consider getting a chest X-ray.'
+        },
+        'headache': {
+            'conditions': ['flu', 'migraine', 'sinusitis', 'stress', 'hypertension', 'brain tumor', 'meningitis'],
+            'actions': 'Take pain relievers and rest in a quiet, dark room.'
+        },
+        'rash': {
+            'conditions': ['allergy', 'eczema', 'measles', 'chickenpox', 'psoriasis', 'shingles', 'scarlet fever'],
+            'actions': 'Avoid allergens and moisture on the affected area.'
+        },
+        'fatigue': {
+            'conditions': ['flu', 'anemia', 'depression', 'thyroid disorder', 'diabetes', 'chronic fatigue syndrome', 'cancer'],
+            'actions': 'Get plenty of sleep and consider iron-rich foods.'
+        },
+        'chest pain': {
+            'conditions': ['heart attack', 'angina', 'acid reflux', 'anxiety', 'pneumonia', 'pulmonary embolism'],
+            'actions': 'Seek emergency medical attention immediately.'
+        },
+        'shortness of breath': {
+            'conditions': ['asthma', 'pneumonia', 'COPD', 'heart failure', 'COVID-19', 'pulmonary embolism'],
+            'actions': 'Consult a doctor and avoid physical exertion.'
+        },
+        'nausea': {
+            'conditions': ['food poisoning', 'pregnancy', 'gastritis', 'migraine', 'vertigo', 'gastroenteritis'],
+            'actions': 'Stay hydrated and eat bland food. Consult a doctor if it persists.'
+        },
+        'vomiting': {
+            'conditions': ['food poisoning', 'gastroenteritis', 'pregnancy', 'appendicitis', 'migraine', 'hepatitis'],
+            'actions': 'Stay hydrated and avoid solid food until symptoms improve.'
+        },
+        'diarrhea': {
+            'conditions': ['food poisoning', 'gastroenteritis', 'irritable bowel syndrome (IBS)', 'cholera', 'Crohn\'s disease', 'celiac disease'],
+            'actions': 'Stay hydrated and avoid dairy or fatty foods.'
+        },
+        'sore throat': {
+            'conditions': ['common cold', 'strep throat', 'tonsillitis', 'COVID-19', 'laryngitis'],
+            'actions': 'Gargle with salt water and drink warm fluids.'
+        },
+        'runny nose': {
+            'conditions': ['common cold', 'allergic rhinitis', 'sinus infection', 'COVID-19', 'hay fever'],
+            'actions': 'Use a saline nasal spray and stay hydrated.'
+        },
+        'back pain': {
+            'conditions': ['muscle strain', 'slipped disc', 'arthritis', 'kidney infection', 'sciatica', 'spinal stenosis'],
+            'actions': 'Rest and apply hot or cold compress. Seek medical advice if persistent.'
+        },
+        'joint pain': {
+            'conditions': ['arthritis', 'gout', 'injury', 'lupus', 'rheumatoid arthritis'],
+            'actions': 'Apply ice and rest. Consult a doctor if pain persists.'
+        },
+        'dizziness': {
+            'conditions': ['vertigo', 'anemia', 'low blood pressure', 'dehydration', 'migraine', 'inner ear infection', 'hypoglycemia'],
+            'actions': 'Sit or lie down until the dizziness passes.'
+        },
+        'weight loss': {
+            'conditions': ['diabetes', 'hyperthyroidism', 'cancer', 'malabsorption syndrome', 'anorexia', 'tuberculosis'],
+            'actions': 'Consult a doctor for a thorough medical examination.'
+        },
+        'itching': {
+            'conditions': ['allergy', 'scabies', 'liver disease', 'eczema', 'psoriasis', 'ringworm'],
+            'actions': 'Avoid scratching and use anti-itch creams.'
+        },
+        'swelling': {
+            'conditions': ['injury', 'infection', 'heart failure', 'kidney disease', 'lymphedema'],
+            'actions': 'Elevate the affected area and apply cold compress.'
+        },
+        'blurred vision': {
+            'conditions': ['diabetes', 'cataracts', 'glaucoma', 'migraine', 'macular degeneration', 'retinal detachment'],
+            'actions': 'Consult an ophthalmologist immediately.'
+        },
+        'abdominal pain': {
+            'conditions': ['appendicitis', 'gastritis', 'ulcer', 'gallstones', 'pancreatitis', 'intestinal obstruction'],
+            'actions': 'Avoid solid food and consult a doctor if the pain persists.'
+        },
+        'bloating': {
+            'conditions': ['irritable bowel syndrome (IBS)', 'lactose intolerance', 'gastritis', 'constipation', 'Celiac disease'],
+            'actions': 'Avoid foods that cause gas and stay hydrated.'
+        },
+        'yellow skin': {
+            'conditions': ['hepatitis', 'liver disease', 'jaundice', 'pancreatic cancer', 'bile duct obstruction'],
+            'actions': 'Seek immediate medical attention for possible liver issues.'
+        },
+        'night sweats': {
+            'conditions': ['tuberculosis', 'HIV', 'menopause', 'lymphoma', 'hyperthyroidism', 'brucellosis'],
+            'actions': 'Consult a doctor to investigate the underlying cause.'
+        },
+        'frequent urination': {
+            'conditions': ['diabetes', 'urinary tract infection (UTI)', 'prostate issues', 'bladder infection', 'interstitial cystitis'],
+            'actions': 'Drink plenty of water and consult a doctor.'
+        },
+        'dark urine': {
+            'conditions': ['dehydration', 'hepatitis', 'liver disease', 'kidney stones', 'hematuria'],
+            'actions': 'Drink plenty of fluids and consult a doctor if it persists.'
+        },
+        'hair loss': {
+            'conditions': ['alopecia', 'hypothyroidism', 'stress', 'lupus', 'vitamin deficiency', 'scalp infection'],
+            'actions': 'Consult a doctor for a proper diagnosis and treatment.'
+        },
+        'dry skin': {
+            'conditions': ['eczema', 'psoriasis', 'dehydration', 'hypothyroidism', 'dermatitis'],
+            'actions': 'Use moisturizers and stay hydrated.'
+        },
+        'confusion': {
+            'conditions': ['stroke', 'dementia', 'hypoglycemia', 'head injury', 'brain tumor'],
+            'actions': 'Seek immediate medical attention if confusion is sudden or severe.'
+        },
+        'numbness': {
+            'conditions': ['stroke', 'multiple sclerosis', 'nerve damage', 'diabetic neuropathy'],
+            'actions': 'Consult a doctor, especially if numbness is sudden or persistent.'
+        },
+        'palpitations': {
+            'conditions': ['anxiety', 'hyperthyroidism', 'arrhythmia', 'heart disease', 'electrolyte imbalance'],
+            'actions': 'Try to relax, but consult a doctor if palpitations are frequent.'
+        },
+        'cold hands and feet': {
+            'conditions': ['Raynaud\'s disease', 'anemia', 'hypothyroidism', 'poor circulation', 'frostbite'],
+            'actions': 'Keep warm and consult a doctor if the condition persists.'
+        },
+        'memory loss': {
+            'conditions': ['dementia', 'Alzheimer\'s disease', 'stroke', 'depression', 'brain injury', 'Parkinson\'s disease'],
+            'actions': 'Consult a doctor for a neurological examination.'
+        },
+        'tremors': {
+            'conditions': ['Parkinson\'s disease', 'essential tremor', 'multiple sclerosis', 'anxiety', 'hyperthyroidism'],
+            'actions': 'Consult a neurologist for a thorough examination.'
+        },
+        'difficulty swallowing': {
+            'conditions': ['stroke', 'esophagitis', 'GERD', 'tonsillitis', 'throat cancer'],
+            'actions': 'Consult a doctor for an endoscopic examination.'
+        },
+        'constipation': {
+            'conditions': ['irritable bowel syndrome (IBS)', 'dehydration', 'hypothyroidism', 'colon cancer', 'bowel obstruction'],
+            'actions': 'Increase fiber intake, drink water, and consult a doctor if persistent.'
+        },
+        'increased thirst': {
+            'conditions': ['diabetes', 'dehydration', 'kidney disease', 'hypercalcemia'],
+            'actions': 'Drink plenty of fluids and consult a doctor for further evaluation.'
+        },
+        'red eyes': {
+            'conditions': ['conjunctivitis', 'glaucoma', 'eye injury', 'dry eye syndrome', 'uveitis'],
+            'actions': 'Use lubricating eye drops and consult an eye doctor if it persists.'
+        },
+        'bleeding gums': {
+            'conditions': ['gingivitis', 'scurvy', 'blood disorder', 'leukemia', 'vitamin deficiency'],
+            'actions': 'Practice good oral hygiene and consult a dentist.'
+        },
+        'muscle pain': {
+            'conditions': ['muscle strain', 'fibromyalgia', 'polymyalgia rheumatica', 'rhabdomyolysis'],
+            'actions': 'Rest and consult a doctor if pain persists.'
+        },
+        'high blood pressure': {
+            'conditions': ['hypertension', 'kidney disease', 'pheochromocytoma', 'Cushing syndrome'],
+            'actions': 'Consult a doctor to manage high blood pressure.'
+        },
+        'abnormal bleeding': {
+            'conditions': ['bleeding disorders', 'liver disease', 'leukemia', 'vitamin K deficiency'],
+            'actions': 'Consult a hematologist or doctor to address the underlying cause.'
+        },
+        'difficulty breathing': {
+            'conditions': ['asthma', 'chronic obstructive pulmonary disease (COPD)', 'pulmonary fibrosis', 'anaphylaxis'],
+            'actions': 'Seek emergency medical care if breathing difficulties are severe.'
+        },
+        'seizures': {
+            'conditions': ['epilepsy', 'stroke', 'brain tumor', 'head injury', 'high fever'],
+            'actions': 'Seek immediate medical attention if experiencing seizures.'
+        },
+        'yellow eyes': {
+            'conditions': ['jaundice', 'hepatitis', 'liver disease', 'gallbladder disease'],
+            'actions': 'Consult a doctor for liver function tests and evaluation.'
+        },
+        'loss of appetite': {
+            'conditions': ['gastroenteritis', 'depression', 'chronic illness', 'stomach cancer'],
+            'actions': 'Consult a doctor if loss of appetite persists or is accompanied by other symptoms.'
+        },
+        'unexplained weight gain': {
+            'conditions': ['hypothyroidism', 'Cushing syndrome', 'congestive heart failure', 'polycystic ovary syndrome (PCOS)'],
+            'actions': 'Consult a doctor for a proper diagnosis and management plan.'
+        },
+        'persistent cough': {
+            'conditions': ['chronic bronchitis', 'whooping cough', 'postnasal drip', 'lung cancer'],
+            'actions': 'Consult a doctor for further evaluation and treatment.'
+        },
+        'ear pain': {
+            'conditions': ['ear infection', 'earwax buildup', 'temporal mandibular joint (TMJ) disorder', 'sinus infection'],
+            'actions': 'Consult a doctor or ENT specialist for proper diagnosis.'
+        },
+        'difficulty concentrating': {
+            'conditions': ['ADHD', 'depression', 'anxiety', 'sleep disorders', 'chronic fatigue syndrome'],
+            'actions': 'Consult a healthcare provider for a thorough evaluation.'
+        },
+        'skin lesions': {
+            'conditions': ['skin cancer', 'herpes simplex', 'shingles', 'ringworm', 'lupus'],
+            'actions': 'Consult a dermatologist for examination and treatment.'
+        },
+        'bad breath': {
+            'conditions': ['halitosis', 'gum disease', 'stomach issues', 'diabetes', 'kidney disease'],
+            'actions': 'Maintain good oral hygiene and consult a doctor if persistent.'
+        }
+    }
+}
